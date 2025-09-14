@@ -11,7 +11,6 @@ import {
   Tag
 } from 'lucide-react';
 import { getMBAProgram } from '@/lib/mba-programs';
-import { cn } from '@/lib/utils';
 
 interface MBARecommendationsProps {
   mbaIds: string[];
@@ -52,7 +51,7 @@ export default function MBARecommendations({ mbaIds, positionTitle }: MBARecomme
         <div className="flex items-center gap-3 mb-6">
           <GraduationCap className="w-6 h-6 text-purple-600" />
           <h3 className="text-xl font-semibold text-purple-900">
-            Рекомендуемые MBA программы для позиции "{positionTitle}"
+            Рекомендуемые MBA программы для позиции &quot;{positionTitle}&quot;
           </h3>
         </div>
         
