@@ -1,0 +1,24 @@
+{
+  "name": "MBA ProfTests",
+  "description": "Интерактивное приложение для оценки бизнес-компетенций",
+  "commands": {
+    "dev": "npm run dev",
+    "build": "npm run build",
+    "lint": "npm run lint"
+  },
+  "techStack": {
+    "framework": "Next.js 15.5.3",
+    "language": "TypeScript",
+    "styling": "Tailwind CSS v4 + shadcn/ui",
+    "stateManagement": "Zustand",
+    "animations": "Framer Motion",
+    "charts": "Recharts"
+  },
+  "features": [
+    "Интерактивный тест с различными типами вопросов",
+    "Визуализация компетенций (radar chart)",
+    "Персонализированные рекомендации курсов",
+    "13 категорий бизнес-компетенций",
+    "Геймификация и анимации"
+  ]
+}
